@@ -4,6 +4,7 @@
     "es6": true
   },
   "extends": [
+    "defaults",
     "airbnb-base/legacy",
     "eslint:recommended",
     "plugin:react/recommended",
@@ -21,7 +22,13 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "plugins": ["@typescript-eslint", "prettier", "react", "react-native","react-native-a11y"],
+  "plugins": [
+    "@typescript-eslint",
+    "prettier",
+    "react",
+    "react-native",
+    "react-native-a11y"
+  ],
   "rules": {
     "react-native/no-unused-styles": 2,
     "react-native/split-platform-components": 2,
