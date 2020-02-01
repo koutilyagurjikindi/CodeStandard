@@ -8,7 +8,7 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged && npm test"
   },
   "dependencies": {
     "mem": "^6.0.1",
@@ -54,8 +54,10 @@
       "js"
     ],
     "transform": {
-      "^.+\\.(js)$": "<rootDir>/node_modules/babel-jest",
-      "\\.(ts|tsx)$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+      "ts-lint": [
+        "<rootDir>/node_modules/babel-jest",
+        "<rootDir>/node_modules/ts-jest/preprocessor.js"
+      ]
     },
     "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
     "testPathIgnorePatterns": [
