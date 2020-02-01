@@ -72,7 +72,8 @@
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "npx prettier --write",
-      "eslint --fix"
+      "eslint --fix",
+      "yarn test"
     ]
   }
 }
