@@ -1,0 +1,76 @@
+61d0fdc4eeed8737688ae39be625919c
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+var _regenerator = _interopRequireDefault(require("@babel/runtime/regenerator"));
+
+describe('Example', function () {
+  beforeEach(function _callee() {
+    return _regenerator.default.async(function _callee$(_context) {
+      while (1) {
+        switch (_context.prev = _context.next) {
+          case 0:
+            _context.next = 2;
+            return _regenerator.default.awrap(device.reloadReactNative());
+
+          case 2:
+          case "end":
+            return _context.stop();
+        }
+      }
+    });
+  });
+  it('should have welcome screen', function _callee2() {
+    return _regenerator.default.async(function _callee2$(_context2) {
+      while (1) {
+        switch (_context2.prev = _context2.next) {
+          case 0:
+            _context2.next = 2;
+            return _regenerator.default.awrap(expect(element(by.id('welcome'))).toBeVisible());
+
+          case 2:
+          case "end":
+            return _context2.stop();
+        }
+      }
+    });
+  });
+  it('should show hello screen after tap', function _callee3() {
+    return _regenerator.default.async(function _callee3$(_context3) {
+      while (1) {
+        switch (_context3.prev = _context3.next) {
+          case 0:
+            _context3.next = 2;
+            return _regenerator.default.awrap(element(by.id('hello_button')).tap());
+
+          case 2:
+            _context3.next = 4;
+            return _regenerator.default.awrap(expect(element(by.text('Hello!!!'))).toBeVisible());
+
+          case 4:
+          case "end":
+            return _context3.stop();
+        }
+      }
+    });
+  });
+  it('should show world screen after tap', function _callee4() {
+    return _regenerator.default.async(function _callee4$(_context4) {
+      while (1) {
+        switch (_context4.prev = _context4.next) {
+          case 0:
+            _context4.next = 2;
+            return _regenerator.default.awrap(element(by.id('world_button')).tap());
+
+          case 2:
+            _context4.next = 4;
+            return _regenerator.default.awrap(expect(element(by.text('World!!!'))).toBeVisible());
+
+          case 4:
+          case "end":
+            return _context4.stop();
+        }
+      }
+    });
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZpcnN0VGVzdC5zcGVjLmpzIl0sIm5hbWVzIjpbImRlc2NyaWJlIiwiYmVmb3JlRWFjaCIsImRldmljZSIsInJlbG9hZFJlYWN0TmF0aXZlIiwiaXQiLCJleHBlY3QiLCJlbGVtZW50IiwiYnkiLCJpZCIsInRvQmVWaXNpYmxlIiwidGFwIiwidGV4dCJdLCJtYXBwaW5ncyI6Ijs7OztBQUFBQSxRQUFRLENBQUMsU0FBRCxFQUFZLFlBQU07QUFDeEJDLEVBQUFBLFVBQVUsQ0FBQztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQSw4Q0FDSEMsTUFBTSxDQUFDQyxpQkFBUCxFQURHOztBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBLEdBQUQsQ0FBVjtBQUlBQyxFQUFBQSxFQUFFLENBQUMsNEJBQUQsRUFBK0I7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsOENBQ3pCQyxNQUFNLENBQUNDLE9BQU8sQ0FBQ0MsRUFBRSxDQUFDQyxFQUFILENBQU0sU0FBTixDQUFELENBQVIsQ0FBTixDQUFrQ0MsV0FBbEMsRUFEeUI7O0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsR0FBL0IsQ0FBRjtBQUlBTCxFQUFBQSxFQUFFLENBQUMsb0NBQUQsRUFBdUM7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsOENBQ2pDRSxPQUFPLENBQUNDLEVBQUUsQ0FBQ0MsRUFBSCxDQUFNLGNBQU4sQ0FBRCxDQUFQLENBQStCRSxHQUEvQixFQURpQzs7QUFBQTtBQUFBO0FBQUEsOENBRWpDTCxNQUFNLENBQUNDLE9BQU8sQ0FBQ0MsRUFBRSxDQUFDSSxJQUFILENBQVEsVUFBUixDQUFELENBQVIsQ0FBTixDQUFxQ0YsV0FBckMsRUFGaUM7O0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsR0FBdkMsQ0FBRjtBQUtBTCxFQUFBQSxFQUFFLENBQUMsb0NBQUQsRUFBdUM7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsOENBQ2pDRSxPQUFPLENBQUNDLEVBQUUsQ0FBQ0MsRUFBSCxDQUFNLGNBQU4sQ0FBRCxDQUFQLENBQStCRSxHQUEvQixFQURpQzs7QUFBQTtBQUFBO0FBQUEsOENBRWpDTCxNQUFNLENBQUNDLE9BQU8sQ0FBQ0MsRUFBRSxDQUFDSSxJQUFILENBQVEsVUFBUixDQUFELENBQVIsQ0FBTixDQUFxQ0YsV0FBckMsRUFGaUM7O0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUEsR0FBdkMsQ0FBRjtBQUlELENBbEJPLENBQVIiLCJzb3VyY2VzQ29udGVudCI6WyJkZXNjcmliZSgnRXhhbXBsZScsICgpID0+IHtcbiAgYmVmb3JlRWFjaChhc3luYyAoKSA9PiB7XG4gICAgYXdhaXQgZGV2aWNlLnJlbG9hZFJlYWN0TmF0aXZlKCk7XG4gIH0pO1xuXG4gIGl0KCdzaG91bGQgaGF2ZSB3ZWxjb21lIHNjcmVlbicsIGFzeW5jICgpID0+IHtcbiAgICBhd2FpdCBleHBlY3QoZWxlbWVudChieS5pZCgnd2VsY29tZScpKSkudG9CZVZpc2libGUoKTtcbiAgfSk7XG5cbiAgaXQoJ3Nob3VsZCBzaG93IGhlbGxvIHNjcmVlbiBhZnRlciB0YXAnLCBhc3luYyAoKSA9PiB7XG4gICAgYXdhaXQgZWxlbWVudChieS5pZCgnaGVsbG9fYnV0dG9uJykpLnRhcCgpO1xuICAgIGF3YWl0IGV4cGVjdChlbGVtZW50KGJ5LnRleHQoJ0hlbGxvISEhJykpKS50b0JlVmlzaWJsZSgpO1xuICB9KTtcblxuICBpdCgnc2hvdWxkIHNob3cgd29ybGQgc2NyZWVuIGFmdGVyIHRhcCcsIGFzeW5jICgpID0+IHtcbiAgICBhd2FpdCBlbGVtZW50KGJ5LmlkKCd3b3JsZF9idXR0b24nKSkudGFwKCk7XG4gICAgYXdhaXQgZXhwZWN0KGVsZW1lbnQoYnkudGV4dCgnV29ybGQhISEnKSkpLnRvQmVWaXNpYmxlKCk7XG4gIH0pO1xufSk7XG4iXX0=
