@@ -73,7 +73,6 @@
     "*.{js,jsx,ts,tsx}": [
       "npx prettier --write",
       "eslint --fix"
-    ],
-    "*.js": "eslint --cache --fix"
+    ]
   }
 }
