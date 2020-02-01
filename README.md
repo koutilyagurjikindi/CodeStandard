@@ -36,3 +36,7 @@ It creates rn-cli.config.js file
 ### Install Jest
 
 - npm install --save-dev ts-jest
+
+### Install Husky
+
+- npm install husky --save-dev
