@@ -6,9 +6,7 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "jest",
-    "lint": "eslint .",
-    "precommit": "lint-staged && npm test"
+    "test": "jest"
   },
   "dependencies": {
     "mem": "^6.0.1",
@@ -66,10 +64,15 @@
     ],
     "cacheDirectory": ".jest/cache"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "lint-staged": {
-    "{src,test}/**/*.ts*": [
-      "prettier --write",
-      "git add"
+    "*.{js,jsx,ts,tsx}": [
+      "npx prettier --write",
+      "eslint --fix"
     ]
   }
 }
