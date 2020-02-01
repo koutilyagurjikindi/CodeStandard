@@ -32,3 +32,7 @@ It create tsconfig.json file
 It creates rn-cli.config.js file
 
 - npm install --save-dev @types/react @types/react-native
+
+### Install Jest
+
+- npm install --save-dev ts-jest
