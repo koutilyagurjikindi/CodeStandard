@@ -40,3 +40,7 @@ It creates rn-cli.config.js file
 ### Install Husky
 
 - npm install husky --save-dev
+
+### Install Lint-staged
+
+- npx mrm lint-staged
