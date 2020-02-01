@@ -44,3 +44,10 @@ It creates rn-cli.config.js file
 ### Install Lint-staged
 
 - npx mrm lint-staged
+
+### Installing the project
+
+- npm install
+- npm start
+- react-native run-android
+- react-native run-ios
